@@ -1,0 +1,43 @@
+CRITICAL - 2022-03-03 10:31:00 --> Undefined variable $data
+#0 C:\xampp\htdocs\webku\app\Controllers\Pendataan.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\webku\system\CodeIgniter.php(832): App\Controllers\Pendataan->index()
+#2 C:\xampp\htdocs\webku\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pendataan))
+#3 C:\xampp\htdocs\webku\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\webku\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\webku\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-03-03 10:31:11 --> Undefined variable $judul
+#0 C:\xampp\htdocs\webku\app\Views\templates\v_header.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 12)
+#1 C:\xampp\htdocs\webku\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\webku\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\webku\system\Common.php(1089): CodeIgniter\View\View->render('templates/v_hea...', Array, true)
+#4 C:\xampp\htdocs\webku\app\Controllers\Pendataan.php(14): view('templates/v_hea...')
+#5 C:\xampp\htdocs\webku\system\CodeIgniter.php(832): App\Controllers\Pendataan->index()
+#6 C:\xampp\htdocs\webku\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pendataan))
+#7 C:\xampp\htdocs\webku\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\webku\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\webku\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-03-03 11:03:54 --> Cannot use object of type mysqli as array
+#0 C:\xampp\htdocs\webku\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\webku\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\webku\system\Common.php(1089): CodeIgniter\View\View->render('pendataan/index', Array, true)
+#3 C:\xampp\htdocs\webku\app\Controllers\Pendataan.php(21): view('pendataan/index')
+#4 C:\xampp\htdocs\webku\system\CodeIgniter.php(832): App\Controllers\Pendataan->index()
+#5 C:\xampp\htdocs\webku\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pendataan))
+#6 C:\xampp\htdocs\webku\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\webku\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\webku\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2022-03-03 11:07:48 --> Undefined property: CodeIgniter\Database\MySQLi\Result::$getResultArray
+#0 C:\xampp\htdocs\webku\app\Views\Pendataan\index.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 19)
+#1 C:\xampp\htdocs\webku\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\webku\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\webku\system\Common.php(1089): CodeIgniter\View\View->render('pendataan/index', Array, true)
+#4 C:\xampp\htdocs\webku\app\Controllers\Pendataan.php(21): view('pendataan/index')
+#5 C:\xampp\htdocs\webku\system\CodeIgniter.php(832): App\Controllers\Pendataan->index()
+#6 C:\xampp\htdocs\webku\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pendataan))
+#7 C:\xampp\htdocs\webku\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\webku\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\webku\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}

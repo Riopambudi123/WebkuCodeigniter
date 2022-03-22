@@ -1,0 +1,24 @@
+CRITICAL - 2022-02-26 20:36:58 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\xampp\htdocs\webku\system\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 C:\xampp\htdocs\webku\system\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\xampp\htdocs\webku\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 C:\xampp\htdocs\webku\spark(45): require('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2022-02-26 20:37:34 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\xampp\htdocs\webku\system\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 C:\xampp\htdocs\webku\system\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\xampp\htdocs\webku\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 C:\xampp\htdocs\webku\spark(45): require('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2022-02-26 14:22:18 --> Undefined variable $judul
+#0 C:\xampp\htdocs\webku\app\Views\templates\v_header.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 12)
+#1 C:\xampp\htdocs\webku\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\webku\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\webku\system\Common.php(1089): CodeIgniter\View\View->render('templates/v_hea...', Array, true)
+#4 C:\xampp\htdocs\webku\app\Controllers\Home.php(13): view('templates/v_hea...')
+#5 C:\xampp\htdocs\webku\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\webku\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\webku\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\webku\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\webku\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
